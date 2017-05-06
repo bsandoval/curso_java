@@ -1,6 +1,6 @@
-## Curso de Introduccion a JAVA
+# Curso de Introduccion a JAVA
 
-# Contenido del curso:
+## Contenido del curso:
 
 - Clase 1 :
 Introducción a Java, code conventions, constructores, ejercicios.
@@ -17,6 +17,6 @@ Introducción a Java, code conventions, constructores, ejercicios.
 Extra:
 - Generics, Java I/O.
 
-# Tutores:
+## Tutores:
 - Beatriz Sandoval
 - Felipe Hermosilla
