@@ -1,23 +1,63 @@
 package py.com.una.java.objetos;
 
 public class Persona {
-	int edad;
+	protected int edad;
+	public String nombre;
+	private String cedula;
+	String apellido;
 	
-	String nombre;
-
-	String getNombre(){
-		return this.nombre;
+	public static int CONTADOR = 0;
+	
+	public Persona() {
+		super();
+		System.out.println("Una persona");
 	}
 	
-	void setNombre(String nombre){
+	public Persona(int edad) {
+       this.edad = edad;
+       System.out.println("Una persona con edad: "+ edad);
+    }
+
+    public Persona(String nombre) {
+        this.nombre = nombre;
+        System.out.println("Una persona de nombre: "+ nombre);
+    }
+
+    public Persona(int edad, String nombre) {
+       this.edad = edad;
+       this.nombre = nombre;
+       System.out.println("Una persona con edad: "+ edad + " y nombre: "+ nombre);
+    }
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	int getEdad(){
-		return this.edad;
+
+	public String getCedula() {
+		return cedula;
 	}
-	
-	void setEdad(int edad){
-		this.edad=edad;
+
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 }

@@ -1,6 +1,6 @@
-package py.com.una.java.main;
+package py.com.una.java.constructores;
 
-import py.com.una.java.constructores.Persona;
+import py.com.una.java.objetos.Persona;
 
 public class ConstruirPersonas {
 

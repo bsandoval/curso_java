@@ -13,5 +13,6 @@ public class CuentaBancaria {
 	
 	public void retirar(double monto){//Variable local
 		balance = balance - monto;
+		System.out.println("Su saldo es de: "+balance);
 	}
 }

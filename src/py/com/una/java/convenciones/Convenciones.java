@@ -1,6 +1,8 @@
-package py.com.una.java.main;
+package py.com.una.java.convenciones;
 
-import py.com.una.java.constructores.Persona;
+import py.com.una.java.objetos.Persona;
+
+
 /**
  * Tiene como proposito exponer el uso de
  * las siguientes sentencias de control de flujo:
@@ -14,7 +16,7 @@ import py.com.una.java.constructores.Persona;
  * @author bsandoval
  *
  */
-public class Conventions {
+public class Convenciones {
 
 	public static void main(String[] args) {
 		Persona p = new Persona(23);

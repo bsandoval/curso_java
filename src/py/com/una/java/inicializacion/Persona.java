@@ -1,7 +1,7 @@
 /**
  * 
  */
-package py.com.una.java.main;
+package py.com.una.java.inicializacion;
 
 /**
  * @author bsandoval
