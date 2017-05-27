@@ -1,7 +1,5 @@
 package py.com.una.java.modificadores;
 
-import py.com.una.java.objetos.Persona;
-
 public class Encapsulamiento {
 
 	public static void main(String[] args) {

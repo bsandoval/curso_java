@@ -1,10 +1,10 @@
-package py.com.una.java.objetos;
+package py.com.una.java.modificadores;
 
 public class Persona {
-	private int edad;
-	private String nombre;
+	protected int edad;
+	public String nombre;
 	private String cedula;
-	private String apellido;
+	String apellido;
 	
 	public static int CONTADOR = 0;
 	
@@ -16,17 +16,6 @@ public class Persona {
 	public Persona(int edad) {
        this.edad = edad;
        System.out.println("Una persona con edad: "+ edad);
-    }
-
-    public Persona(String nombre) {
-        this.nombre = nombre;
-        System.out.println("Una persona de nombre: "+ nombre);
-    }
-
-    public Persona(int edad, String nombre) {
-       this.edad = edad;
-       this.nombre = nombre;
-       System.out.println("Una persona con edad: "+ edad + " y nombre: "+ nombre);
     }
 
 	public int getEdad() {
