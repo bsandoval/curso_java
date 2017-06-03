@@ -7,4 +7,6 @@ package py.com.una.java.interfaces;
  */
 public interface Volador {
     public void volar();
+    
+    public void volarMasAlto();
 }

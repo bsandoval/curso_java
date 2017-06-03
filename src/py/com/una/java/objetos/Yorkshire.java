@@ -5,12 +5,13 @@ package py.com.una.java.objetos;
  * @author felipehermosilla
  *
  */
-public class Yorkshire extends Perro {
+public class Yorkshire extends Perro{
 	// Aquí se sobreescribe el método ‘ladrar’ de la clase padre ‘Perro’
 	@Override
 	public void ladrar() {
 		setFrecuenciaLadrido(Perro.FRECUENCIA_ALTA);
 		// ‘super’ llama al método ‘ladrar’ de la clase padre.
-		super.ladrar();
+//		super.ladrar();
+		System.out.println("Yorkshire mitiendo ladrido con frecuencia: "+ getFrecuenciaLadrido());
 	}
 }

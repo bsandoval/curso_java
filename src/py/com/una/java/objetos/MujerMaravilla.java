@@ -3,25 +3,20 @@ package py.com.una.java.objetos;
 import py.com.una.java.interfaces.Luchador;
 import py.com.una.java.interfaces.Volador;
 
-/**
- * 
- * @author felipehermosilla
- *
- */
-public class Superman extends Persona implements Volador, Luchador {
+public class MujerMaravilla extends Persona implements Volador, Luchador {
 	// Método implementado de la interfaz 'Volador'
 	public void volar() {
-		System.out.println("Superman vuela");
+		System.out.println("Mujer maravilla vuela");
 	}
 
 	// Método implementado de la interfaz 'Luchador'
 	public void luchar() {
-		System.out.println("Superman lucha");
+		System.out.println("Mujer maravilla lucha");
 	}
 
 	@Override
 	public void volarMasAlto() {
-		System.out.println("Superman vuela mas alto");
+		System.out.println("Mujer maravilla vuela mas alto");
 		
 	}
 	
