@@ -21,6 +21,11 @@ public class Alumno {
 		this.edad = edad;
 	}
 	
+	public Alumno(String nombre) {
+		this(); //indicamos que primero se debe llamar al constructor por defecto
+		this.nombre = nombre;
+	}
+	
 	/**
 	 * <b><u><i>Retorna la cantidad de horas netas que estudiará el alumno</i></u></b>
 	 * 
